@@ -7,14 +7,26 @@ This repository contains scripts related to paper "Metabolomic and genomic predi
 ### Requirements
 
 The code has been tested with R version 4.3.2. It requires the following packages:
- - put
- - packages
- - here
+
+- tidyverse
+- dplyr
+- readr
+- scales
+- ggplot2
+- tidyr
+- ggforestplot
+- ggh4x
+- cowplot
+- purrr
+- survminer
+- grid
+- gridExtra
+- egg
 
 ### Content
 #### Source data
 
-Source data, in csv data, is located under `source-data`. These files include:
+Source data, in csv format, is located under `source-data`. These files include:
 
 * Figure1a_plotdata.csv - the estimated 4-year incidence rate of each disease for individuals within each percentile of metabolomic score for that disease, averaged across the 3 biobanks
 * Figure1b_plotdata.csv - the 4-year hazard ratios for developing incident disease for individuals in the top 10% of each metabolomic score within the three biobanks and the meta-analysis results
