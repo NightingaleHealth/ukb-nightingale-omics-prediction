@@ -32,8 +32,8 @@ Source data, in csv format, is located under `source-data`. These files include:
 * Figure1b_plotdata.csv - the 4-year hazard ratios for developing incident disease for individuals in the top 10% of each metabolomic score within the three biobanks and the meta-analysis results
 * Figure2a_plotdata.csv - the 10-year hazard ratios for developing incident disease for individuals in the top 10% of each metabolomic, genomic and combined score in the UK Biobank
 * Figure2b_plotdata.csv - cumulative disease-free survival rates after baseline for high-polygenic/low-metabolomic risk, high-polygenic/high-metabolomic risk and low-polygenic risk groups for each disease
-* Figure2c_stratified_plotdata.csv - time-stratified hazard ratios for each 1-year interval after baseline for individuals in the 10% of each metabolomic and genomic score for each disease
-* Figure2c_tvc_plotdata.csv - time-varying estimates of hazard ratios using restricted cubic splines for individuals in the 10% of each metabolomic and genomic score for each disease
+* Figure2c_stratified_plotdata.csv - time-stratified hazard ratios for each 1-year interval after baseline for individuals in the top 10% of each metabolomic and genomic score for each disease
+* Figure2c_tvc_plotdata.csv - time-varying estimates of hazard ratios using restricted cubic splines for individuals in the top 10% of each metabolomic and genomic score for each disease
 * Figure3_plotdata.csv - cumulative disease-free survival rates after follow-up visitor for individuals with repeat samples who stayed in, left, joined or never entered the top 10% metabolomic score for each disease
 * Figure4a_plotdata.csv - the 10-year hazard ratios for developing incident disease for individuals in the top 10% of each clinic, multiomoc and combined score in the UK Biobank
 * Figure4b_plotdata.csv - calibration data (predicted and actual incident disease rates for each score decile) for metabolomic scores for each disease in the three cohorts
